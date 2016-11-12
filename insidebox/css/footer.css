@@ -1,0 +1,13 @@
+@import url("fonts.css");
+footer
+{
+	height: 200px;
+	width: 100%;
+	float: clear;
+}
+p
+{
+	font-family: Raleway;
+	color: white;
+	text-align: center;
+}

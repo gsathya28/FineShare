@@ -1,0 +1,66 @@
+@import url("nav.css");
+@font-face
+{
+	font-family: Raleway;
+	src: url("FONTS/Raleway-Medium.ttf");
+}
+@font-face
+{
+	font-family: RalewayThin;
+	src: url("FONTS/Raleway-Thin.ttf");
+}
+@font-face
+{
+	font-family: RalewayBold;
+	src: url("FONTS/Raleway-Bold.ttf");
+}
+
+#container
+{
+	width: 99%;
+	height: 800px;
+	margin-top: 12px;
+	background-color: #7a00cc;
+}
+#loginbox
+{
+	width: 25%;
+	height: 40%;
+	background-color: #a31aff;
+	border-radius: 10px;
+	margin: auto;
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 24px 80px 0 rgba(0, 0, 0, 0.19);
+	vertical-align: bottom;
+}
+#logintitle
+{
+	font-family: RalewayThin;
+	color: white;
+	padding-top: 10px;
+	text-align: center;
+	
+}
+.fields
+{
+	font-family: Raleway;
+	color: white;
+}
+::-webkit-input-placeholder 
+{
+	font-style: italic;
+}
+
+:-moz-placeholder 
+{ /* Firefox 18- */
+   font-style: italic;   
+}
+
+::-moz-placeholder 
+{  /* Firefox 19+ */
+   font-style: italic;
+}
+
+:-ms-input-placeholder 
+{  
+   font-style: italic;
+}

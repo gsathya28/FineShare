@@ -1,0 +1,67 @@
+TO-DO list
+
+// Create User (php file) and Create class (php file)
+// Teacher-Student Differentiation ($_SESSION array)
+// Classcode cookie management
+// Deal with no class/assign/notif..
+// Session Security - Session Fixation
+// Scrolling mechanisms (opposite of zero cases)
+--------------------------------------------------------
+
+// Unit table 
+// Calendar Module
+
+
+Outside class
+- index.php (Cookie will be set here - because of classes link)
+- classlist.php (Cookie will be set here)
+- calendarpage.php
+- assignlist.php (But will still use currclasscode cookie)
+- materialpage.php (But will still use currclasscode cookie)
+- newclass.php 
+- tools.php (Cookie ??)
+
+Inside class
+-classpage.php
+-assignment.php
+-newassign.php
+-assignprocess.php
+-notification.php
+-newnotif.php 
+-notifprocess.php
+-newtool.php (Will not be completed until Drive API) --> along with its process pages)
+-calendar.php (inside calendar directory/will use cookie because it is requested by classpage.php)
+-studentlist.php
+
+- Pages that still need to be created - 
+The User creation and class creation pages!
+The modification pages and buttons!
+
+
+Pages that need Teacher-Student Differentiation
+-Index.php (though not much!)
+-Classpage.php - main one!
+-assignment.php
+-notification.php
+-material.php
+
+Pages students should not have access to:
+-newassign.php
+-newclass.php (this might change in the future, though not likely)
+-newnotif.php
+-All of the preceding processing pages!
+
+Pages neither should have access to!
+-ALL of the processing pages! 
+-Need to find a way to secure the main login processing page ... from a url attack
+
+
+Pages that need to deal with no classes/assign/notification
+-index.php
+-classpage.php
+-classlist.php
+-studentlist.php
+-calendar/calendar.php
+-notifpage.php
+-assignlist.php
+

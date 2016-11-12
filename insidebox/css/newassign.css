@@ -1,0 +1,135 @@
+@import url("nav.css");
+@import url("banner.css");
+@import url("footer.css");
+@import url("FONTS.css");
+
+#container
+{
+	width: 99%;
+	height: 800px;
+	margin-top: 12px;
+	background-color: #a31aff;
+}
+
+#assigntitle
+{
+	width: 99%;
+	height: 70px;
+	margin: auto;
+}
+::-webkit-input-placeholder 
+{
+   color: white;
+   font-style: italic;
+}
+
+:-moz-placeholder 
+{ /* Firefox 18- */
+   color: white;
+   font-style: italic;   
+}
+
+::-moz-placeholder 
+{  /* Firefox 19+ */
+   color: white;
+   font-style: italic;
+}
+
+:-ms-input-placeholder 
+{  
+   color: white;
+   font-style: italic;
+}
+
+#titleform
+{
+	width: 100%;
+	height: 65px;
+	background-color:#a31aff;
+	text-align:center;
+	font-family: RalewayThin;
+	color: white;
+	font-size: 25px;
+	font-weight: 700;
+	border-color:#a31aff;
+	border: 0px;
+}
+
+#assigndetail
+{
+	height: 150px;
+	width: 100%;
+	color: white;
+	background-color: #4c0080; 
+	text-align: left;
+	padding-bottom: 20px;
+}
+#detailbox
+{
+	height: 100px;
+	width: 90%;
+	background-color: #6b00b3;
+	text-align: left;
+	margin: auto;
+}
+#detail
+{
+	height: 60px;
+	width: 60%;
+	margin: auto;
+	background-color: red;
+	margin-top: -10px;
+	
+}
+#detailform
+{
+	border: 0px;
+	height: 58px;
+	width: 100%;
+	background-color:#a31aff;
+	font-family: RalewayThin;
+	color: white;
+	font-weight: 700;
+}
+#short
+{
+	height: 25px;
+	width: 225px;
+	margin: auto;
+	margin-top: -10px;	
+}
+.info
+{
+	
+	height: 30px;
+	width: 175px;
+	margin: auto;
+	margin-top: -10px;
+}
+.infoform
+{
+	height: 100%;
+	width: 100%;
+	border: 0px;
+}
+#submitbox
+{
+	height: 25px;
+	width: 150px;
+	margin: auto;
+	margin-top: 20px;
+}
+#submit
+{
+	height: 100%;
+	width: 100%;
+	border: 1px solid white;
+	background-color: #4c0080;
+	color: white;
+	font-family: Raleway;
+}
+
+
+
+
+

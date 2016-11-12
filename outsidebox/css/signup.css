@@ -1,0 +1,47 @@
+@import url("nav.css");
+@font-face
+{
+	font-family: Raleway;
+	src: url("FONTS/Raleway-Medium.ttf");
+}
+@font-face
+{
+	font-family: RalewayBold;
+	src: url("FONTS/Raleway-Bold.ttf");
+}
+@font-face
+{
+	font-family: RalewayThin;
+	src: url("FONTS/Raleway-Thin.ttf");
+}
+
+#container
+{
+	height: 800px;
+	width: 99%;
+	margin-top: 12px;
+	background-color: #ffe6ea;
+	text-align: center;
+	font-family: Raleway;
+	color: purple;
+}
+#signupform
+{
+	height: 90%;
+	width: 30%;
+	color: white;
+	background-color: #a31aff;
+	margin: auto;
+	text-align: center;	
+	padding: 10px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 24px 80px 0 rgba(0, 0, 0, 0.19);
+}
+#submit
+{
+	width: 40%;
+	color: white;
+	background-color: #4c0080;
+	
+}

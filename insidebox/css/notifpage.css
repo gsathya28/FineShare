@@ -1,0 +1,42 @@
+@import url("nav.css");
+@import url("footer.css");
+@import url("banner.css");
+@import url("fonts.css");
+
+#container
+{
+	width: 99%;
+	height: 800px;
+	margin-top: 12px;
+	background-color: #a31aff;
+}
+.contbox
+{
+	display: inline-block;
+	vertical-align: bottom;
+}
+#main
+{
+	height: 640px;
+	width: 75%;
+	background-color: #cc80ff;
+	border-radius: 14px;
+	vertical-align: bottom;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#searcher
+{
+	height: 640px;
+	width: 20%;
+	background-color: #6b00b3;
+	margin-left: 20px;
+	border-radius: 14px;
+	
+}
+#contitles
+{
+	color: white;
+	font-family: RalewayThin;
+	text-align: center;
+}

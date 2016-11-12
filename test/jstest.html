@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+
+<body>
+	<a id = "mylink" href = "http://mysite.com">Click ME!</a><br>
+	<script type = "text/javascript"><!--
+		url = document.links.mylink.href;
+		document.write('THE URL is ' + url + '<br>')
+	
+		string = "The quick brown fox jumps over the lazy dog"
+		
+		with(string)
+		{
+			document.write("The string is " + length + " characters!<br>")
+			document.write("In uppercase it's: " + toUpperCase())
+		}
+		
+		document.write('<br>')
+		
+		onerror = errorHandler
+		document.write('Welcome to this website<br>')
+		
+		displayItems('Dog', 'Banana', 'Wheeee')
+		
+		
+		
+		function errorHandler(message, url, line)
+		{
+			out = "Sorry an error was encountered. \n \n";
+			out += "Error: " + message + "\n";
+			out += "URL: " + url + "\n";
+			out += "Line: " + line + "\n";
+			out += "Click OK to continue. \n\n";
+			alert(out);
+			return true;	
+		}
+		
+		function displayItems()
+		{
+			for (j = 0; j < displayItems.arguments.length; j++)
+				document.write(displayItems.arguments[j] + '<br>');
+		
+		}
+		
+		s = 'banana';
+		s1 = s.substr(1, s.length - 1);
+		
+		document.write(s1);
+		
+		
+	// --></script>
+</body>
+</html>
+
+
+
+
+
+

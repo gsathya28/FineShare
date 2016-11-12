@@ -1,0 +1,32 @@
+@import url("nav.css");
+@import url("footer.css");
+@import url("fonts.css");
+
+#container
+{
+	width: 99%;
+	height: 815px;
+	margin-top: 12px;
+	background-color: #ffe6ea;
+	border-radius: 4px;
+}
+.contbox
+{
+	display: inline-block;
+}
+#calendarbox
+{
+	width: 97%;
+	height: 775px;
+	background-color: #b84dff;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 14px;
+	vertical-align: bottom;
+}
+h1 /*Calendar Header*/
+{
+	text-align: center;
+	font-family: RalewayThin;
+	color: white;
+}

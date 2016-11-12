@@ -1,0 +1,102 @@
+@import url("nav.css");
+@import url("banner.css");
+@import url("footer.css");
+@import url("FONTS.css");
+
+#container
+{
+	width: 99%;
+	height: 900px;
+	margin-top: 12px;
+	background-color: #a31aff;
+}
+#main
+{
+	width: 60%;
+	height: 650px;
+	background-color: #6b00b3;
+	border-radius: 14px;
+	margin: auto;
+}
+#title
+{
+	color: white; 
+	text-align: center; 
+	font-family: RalewayThin;
+	padding-top: 20px;
+}
+#add
+{
+	height: 30px;
+	width: 20%;
+	color: white;
+	float: right;
+	font-family: Raleway;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 10px;
+	border-radius: 8px;
+	margin-top: -52.5px;
+}
+#add:hover
+{
+	background-color: white;
+	color: black;
+}
+.stutable
+{
+	width: 98%;
+	height: 140px;
+	/*background-color: #4c0080;*/
+	margin: auto;
+	/*border-radius: 10px;*/
+}
+#headrow
+{
+	width: 99%;
+	height: 25px;
+	text-align: left;
+	margin-left: 20px;
+	padding-top: 5px;
+}
+.heading
+{
+	display: inline-block;
+	font-family: Raleway;
+	color: white;
+}
+.datarow
+{
+	width: 97%;
+	height: 25px;
+	color: white;
+	text-align: left;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+	border-radius: 8px;
+	font-family: RalewayThin;
+	font-weight: 700;
+}
+.datarow:hover
+{
+	background-color:#4c0080;
+}
+.data
+{
+	display: inline-block;
+	height: 25px;
+}
+#Sname
+{
+	width: 67%;
+}
+#Semail
+{
+	width: 30%;
+	text-align: right;
+}
+.shift
+{
+	margin-left: -17px;
+}

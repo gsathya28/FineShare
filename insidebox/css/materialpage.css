@@ -1,0 +1,75 @@
+@import url("nav.css");
+@import url("footer.css");
+@import url("banner.css");
+@import url("fonts.css");
+
+#container
+{
+	width: 99%;
+	height: 800px;
+	margin-top: 12px;
+	background-color: #a31aff;
+}
+.contbox
+{
+	display: inline-block;
+	vertical-align: bottom;
+}
+#units
+{
+	height: 640px;
+	width: 20%;
+	background-color: #cc80ff;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 14px;
+	vertical-align: bottom;
+}
+#main
+{
+	height: 640px;
+	width: 75%;
+	margin-left: 20px;
+}
+#materialbox
+{
+	height: 300px;
+	width: 99%;
+	background-color: #6b00b3;
+	border-radius: 14px;
+	margin-top: -18px;
+}
+#toolbox
+{
+	height: 300px;
+	width: 99%;
+	background-color: #6b00b3;
+	border-radius: 14px;
+	margin-top: 40px;
+}
+h3
+{
+	color: white;
+	font-family: RalewayThin;
+	text-align: center;
+}
+#contitles
+{
+	padding-top: 14px;
+}
+#unittable
+{
+	margin: auto;
+}
+#unitrows
+{
+	font-family: Raleway;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	border-radius: 8px;
+}
+#unitrows:hover
+{
+	background-color: #ad33ff;
+}

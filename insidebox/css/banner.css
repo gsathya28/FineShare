@@ -1,0 +1,33 @@
+#banner
+{
+	height: 80px;
+	width: 100%;
+	background-color: #4c0080;
+	font-family: Raleway;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 7px;
+	color: white;
+}
+#bantag
+{
+	color: white;
+}
+a
+{
+	text-decoration: none;
+}
+#navtag
+{
+	float: left;
+	padding: 7px;
+	border-radius: 10px;
+	margin-top: -75px;
+	color: white;
+	margin-left: 20px;
+}
+#navtag:hover
+{
+	background-color: white;
+	color: #4c0080;
+}

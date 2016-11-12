@@ -1,0 +1,35 @@
+@import url("nav.css");
+@import url("footer.css");
+@import url("fonts.css");
+
+#container
+{
+	height: 725px;
+	width: 99%;
+	margin-top: 12px;
+	background-color: #ffe6ea;
+}
+
+#search
+{
+	height: 15%;
+	width: 95%;
+	margin: auto;
+	background-color: #b84dff;
+	border-radius: 10px;
+}
+.title
+{
+	font-family: RalewayThin;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+#toolbox
+{
+	height: 60%;
+	width: 95%;
+	background-color: #5c0099;
+	margin: auto;
+	border-radius: 14px;
+}

@@ -1,0 +1,47 @@
+#calendar
+{
+	height: 600px;
+	width: 20%;
+	background-color: #b84dff;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 14px;
+	color: white;
+	font-family: RalewayThin;
+	text-align: center;
+	vertical-align: top;
+}
+#calbutton
+{
+	float: left;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: -10px;
+	margin-left: 75px;
+}
+#calbutton:hover
+{
+	background-color: #9900ff;
+}
+#caltable
+{
+	text-align: left;
+	float: left;
+	margin-left: 20px;
+	margin-top: -20px;
+}
+#eventcol
+{
+	padding-left: 20px;
+}
+.calhead
+{
+	font-family: Raleway;
+}
+.caldata
+{
+	font-family: Raleway;
+}
+
+

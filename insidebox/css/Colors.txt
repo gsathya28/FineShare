@@ -1,0 +1,10 @@
+colors:
+Turquoise - #00cc99, #008060, 
+
+Hot Pink - #4c0080, #ff1ac6, #b30086
+
+Standard - #6b00b3, #f5ccff, #e580ff, #660066
+
+Current Theme: - #4c0080
+
+

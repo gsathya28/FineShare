@@ -1,0 +1,169 @@
+/* Imports */
+@import url("nav.css"); 
+@import url("footer.css"); 
+@import url("calendar.css");
+@import url("fonts.css");
+
+a
+{
+	text-decoration: none;
+}
+/*Content*/
+#container
+{
+	height: 725px;
+	width: 99%;
+	margin-top: 12px;
+	background-color: #ffe6ea;
+}
+/*Banner*/ 
+#greeting
+{
+	height: 80px;
+	width: 100%;
+	background-color: #ffb3c1;
+	font-family: Raleway;
+	text-align: center;
+	padding-top: 10px;
+}
+/*Stuff Underneath*/
+.contbox
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+h3
+{
+	text-align: center;
+	font-family: RalewayThin;
+}
+
+#sheets
+{
+	height: 25%;
+	width: 53%;
+	background-color: #4c0080;
+	margin-left: 20px;
+	border-radius: 14px;
+	color: white;	
+}
+
+#classopt
+{
+	height: 24px;
+	width: 90px;
+	padding-top: 6px;
+	display: inline-block;
+	background-color: #b84dff;
+	border-radius: 6px;
+	text-align: center;
+	font-family: Raleway;
+	text-overflow: ellipsis;
+}
+#classopt:hover
+{
+	background-color: #a31aff;
+}
+#classtitle
+{
+	color: white;
+	text-align: center;
+	font-family: RalewayThin;
+	margin-top: 15px;
+}	
+/* Quick Table */
+#quicktable
+{
+	width: 98%;
+	height: 150;
+	margin: auto;
+	/*background-color: white;*/
+	margin-top: -30px;
+}
+#headrow
+{
+	width: 96%;
+	height: 25px;
+	text-align: left;
+	margin-left: 20px;
+	padding-top: 5px;
+}
+.heading
+{
+	display: inline-block;
+	font-family: Raleway;
+}
+.datarow
+{
+	width: 96%;
+	height: 25px;
+	color: white;
+	text-align: left;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+	border-radius: 8px;
+}
+.datarow:hover
+{
+	background-color: #6b00b3;
+}
+.data
+{
+	display: inline-block;
+	font-family: RalewayThin;
+	height: 25px;
+}
+#Qtype
+{
+	width: 10%;
+}
+#Qname
+{
+	width: 75%;
+}
+#Qdate
+{
+	width: 12%;
+}
+#units
+{
+	height: 600px;
+	width: 20%;
+	background-color: #b84dff;
+	margin-left: 20px;
+	border-radius: 14px;
+	color: white;
+}
+.classhead
+{
+	text-align: center;
+	font-family: Raleway;
+	height: 20px;
+	width: 90%;
+	margin: auto;
+	padding-bottom: 5px;
+}
+.unitbox
+{
+	text-align: center;
+	font-family: RalewayThin;
+	height: 25px;
+	width: 90%;
+	margin: auto;
+	padding-top: 5px;
+}
+.unitbox:hover
+{
+	background-color: #ad33ff;
+}
+
+
+/*Content Ends*/
+
+
+
+
+
+

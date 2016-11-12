@@ -1,0 +1,281 @@
+@import url("nav.css");
+@import url("footer.css");
+@import url("banner.css");
+@import url("calendar.css");
+@import url("fonts.css");
+
+a
+{
+	text-decoration: none;
+}
+#container
+{
+	width: 99%;
+	height: 800px;
+	margin-top: 12px;
+	background-color: #a31aff;
+}
+.contbox
+{
+	display: inline-block;
+	vertical-align: top;
+	
+}
+#calendar
+{
+	background-color: #cc80ff;
+	height: 200px;	
+}
+#calendar:hover
+{
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 24px 80px 0 rgba(0, 0, 0, 0.19);
+}
+.statbox
+{
+	display: block;
+}
+#unitbox
+{
+	background-color: #6b00b3 ;
+	width: 20%;
+	height: 200px;
+	margin-left: 20px;
+	margin-top: -420px;
+	border-radius: 14px;
+	text-align: center;
+	font-family: RalewayThin;
+	color: white;
+}
+#unitbox:hover
+{
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 24px 80px 0 rgba(0, 0, 0, 0.19);
+}
+#unitbutton:hover
+{
+	float: clear;
+	background-color: #a31aff ;
+}
+#studentbox
+{
+	background-color: #cc80ff;
+	width: 20%;
+	height: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 14px;
+	float: left;
+}
+#studentbox:hover
+{
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 24px 80px 0 rgba(0, 0, 0, 0.19);;
+}
+.studenthead
+{
+	font-family: RalewayThin;
+	color: white;
+	text-align: center;
+}
+#Sadd
+{
+	width: 100px;
+	height: 25px;
+	padding-top: 5px;
+	text-align: center;
+	margin: auto;
+	border-radius: 5px;
+	margin-top: 25px;
+}
+#Sadd:hover
+{
+	background-color: #ad33ff;
+}
+#calbutton:hover
+{
+	background-color: #ad33ff;
+}
+#main
+{
+	height: 640px;
+	width: 75%;
+	margin-left: 20px;
+	border-radius: 14px;
+	vertical-align: bottom;
+}
+.mainbox
+{
+	height: 200px;
+	width: 98%;
+	margin: auto;
+	border-radius: 14px;
+	font-family: RalewayThin;
+	text-align: center;
+	color: white;
+}
+#assignments
+{
+	background-color: #6b00b3;
+	margin-top: 20px;
+}
+#assignments:hover
+{
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 24px 80px 0 rgba(0, 0, 0, 0.19);
+}
+#notifications
+{
+	margin-top: 20px;
+	background-color: #cc80ff;
+}
+#notifications:hover
+{
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 24px 80px 0 rgba(0, 0, 0, 0.19);
+}
+#material
+{
+	margin-top: 20px;
+	background-color: #6b00b3;
+}
+#material:hover
+{
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 24px 80px 0 rgba(0, 0, 0, 0.19);
+}
+.mainh3
+{
+	margin: auto;
+	padding-top: 10px;
+}
+.all
+{
+	float: right;
+	margin-right: 20px;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: -20px;
+	font-weight: 700;
+	font-size: 13px;
+}
+.new
+{
+	float: left;
+	margin-left: 20px;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: -20px;
+	font-weight: 700;
+	font-size: 13px;
+}
+.all:hover
+{
+	background-color: #ad33ff;
+}
+.new:hover
+{
+	background-color: #ad33ff;
+}
+
+/* Table Stuff*/
+
+.datatables
+{
+	width: 98%;
+	height: 140px;
+	/*background-color: #4c0080;*/
+	margin: auto;
+	/*border-radius: 10px;*/
+}
+#headrow
+{
+	width: 99%;
+	height: 25px;
+	text-align: left;
+	margin-left: 20px;
+	padding-top: 5px;
+}
+.heading
+{
+	display: inline-block;
+	font-family: Raleway;
+}
+.datarow
+{
+	width: 96%;
+	height: 25px;
+	color: white;
+	text-align: left;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+	border-radius: 8px;
+}
+.datarow:hover
+{
+	background-color:#4c0080;
+}
+.data
+{
+	display: inline-block;
+	height: 25px;
+}
+/* Assignment */
+#Aname
+{
+	width: 250px;
+}
+#Adetail
+{
+	width: 440px;
+}
+#Apercent
+{
+	width: 100px;
+	text-align: center;
+}
+#Adate
+{
+	width: 102px;
+	text-align: right;
+	padding-right: 5px;
+}
+/* Notifications */
+#Ntype
+{
+	width: 200px;
+}
+#Nname
+{
+	width:514px;
+	text-align: left;
+}
+#Ntime
+{
+	width: 75px;
+	text-align: center;
+}
+#Ndate
+{
+	width: 102px;
+	text-align: right;
+	padding-right: 5px;
+}
+.notifrow:hover
+{
+	background-color: #ad33ff;
+}
+/* Materials & Tools */
+#Tunit
+{
+	width: 45px;
+	text-align: right;
+	padding-right: 5px;
+}
+#Tname
+{
+	width: 651px;
+}
+#Ttype
+{
+	width: 200px;
+}
+
+

@@ -1,0 +1,111 @@
+@import url("nav.css");
+@import url("footer.css");
+@import url("banner.css");
+@import url("calendar.css");
+@import url("fonts.css");
+
+a
+{
+	text-decoration: none;
+}
+	
+#container
+{
+	width: 99%;
+	height: 800px;
+	margin-top: 12px;
+	background-color: #a31aff;
+}
+.contbox
+{
+	display: inline-block;
+}
+#units
+{
+	height: 640px;
+	width: 20%;
+	background-color: #cc80ff;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 14px;
+	vertical-align: bottom;
+}
+#assignments
+{
+	height: 640px;
+	width: 75%;
+	background-color: #6b00b3;
+	border-radius: 14px;
+	vertical-align: bottom;
+	margin-left: 20px;
+}
+#contitles
+{
+	color: white;
+	font-family: RalewayThin;
+	text-align: center;
+}
+#assigntable
+{
+	width: 98%;
+	height: 140px;
+	/*background-color: #4c0080;*/
+	margin: auto;
+	/*border-radius: 10px;*/
+}
+#headrow
+{
+	width: 99%;
+	height: 25px;
+	text-align: left;
+	margin-left: 20px;
+	padding-top: 5px;
+	color: white;
+}
+.heading
+{
+	display: inline-block;
+	font-family: Raleway;
+}
+.datarow
+{
+	width: 96%;
+	height: 25px;
+	color: white;
+	text-align: left;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+	border-radius: 8px;
+	font-family: RalewayThin;
+}
+.datarow:hover
+{
+	background-color:#4c0080;
+}
+.data
+{
+	display: inline-block;
+	height: 25px;
+}
+/* Assignment */
+#Aname
+{
+	width: 250px;
+}
+#Adetail
+{
+	width: 467px;
+}
+
+#Apercent
+{
+	width: 100px;
+	text-align: center;
+}
+#Adate
+{
+	width: 75px;
+	text-align: right;
+	padding-right: 5px;
+}

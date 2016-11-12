@@ -1,0 +1,125 @@
+@import url("nav.css"); 
+@import url("footer.css"); 
+@import url("calendar.css");
+@import url("fonts.css");
+
+#container
+{
+	width: 99%;
+	height: 725px;
+	margin-top: 12px;
+	background-color: #ffe6ea;
+}
+h3
+{
+	text-align: center;
+	font-family: RalewayThin;
+	color: white;
+}
+.contbox
+{
+	display: inline-block;
+}
+#classcont
+{
+	height: 600px;
+	width: 73%;
+	margin-left: 20px;
+	background-color: #5c0099;
+	border-radius: 14px;
+	margin-top: 20px;
+}
+#sheets
+{
+	height: 500px;
+	width: 92.5%;
+	background-color: #9900ff;
+	margin: auto;
+	border-radius: 14px;
+	display: block;	
+}
+#headers
+{
+	margin-left: 5px;
+}
+.heading
+{
+	font-family: Raleway;
+	color: white;
+	text-shadow: 2px 2px black;
+	text-align: left;
+	padding: 5px;
+	display: inline-block;
+	height: 25px;
+	margin-top: 5px;
+}
+a
+{
+	text-decoration: none;
+}
+.classbutton
+{
+	height: 30px;
+	font-family: Raleway;
+	color: white;
+	
+	display: inline-block;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+#data
+{
+	margin-left: 10px;
+	border-radius: 10px;
+	width: 96%
+}
+#data:hover
+{
+	background-color:#7a00cc;
+}
+#name
+{
+	width: 215px;
+}
+#status
+{
+	width: 340px;
+}
+#percent
+{
+	width: 240px;
+	text-align: right;
+}
+#zeronotice
+{
+	color: white;
+	font-family:Raleway;
+	text-align:center;
+}
+.zeroclassadd
+{
+	height: 5%;
+	width: 15%;
+	padding-top: .75%;
+	color: white;
+	background-color: #6b00b3;
+	font-family: Raleway;
+	text-align: center;
+	margin: auto;
+	border-radius: 10px; 
+}
+#classadd
+{
+	height: 6.5%;
+	width: 18%;
+	padding-top: 1.25%;
+	color: white;
+	background-color: red;
+	font-family: Raleway;
+	text-align: center;
+	margin: auto;
+	font-size: 18px;
+	
+	
+}
+

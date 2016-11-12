@@ -1,0 +1,101 @@
+@import url("nav.css");
+@import url("banner.css");
+@import url("footer.css");
+@import url("FONTS.css");
+
+#container
+{
+	width: 99%;
+	height: 815px;
+	margin-top: 12px;
+	background-color: #a31aff;
+}
+#assigntitle
+{
+	font-family: RalewayThin;
+	color: white;
+	text-align: center;
+}
+#assigndetail
+{
+	height: 150px;
+	width: 100%;
+	color: white;
+	background-color: #4c0080; 
+	text-align: left;
+	padding-bottom: 20px;
+}
+#detailbox
+{
+	height: 100px;
+	width: 90%;
+	background-color: #6b00b3;
+	text-align: left;
+	margin: auto;
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 24px 80px 0 rgba(0, 0, 0, 0.19);
+}
+#detail
+{
+	text-align: left;
+	padding: 10px;
+}
+#studenttable
+{
+	width: 40%;
+	height: 400px;
+	background-color: #4c0080;
+	margin: auto;
+	margin-top: 25px;
+	border-radius: 10px;
+}
+#headrow
+{
+	width: 99%;
+	height: 25px;
+	text-align: left;
+	margin-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.heading
+{
+	display: inline-block;
+	font-family: Raleway;
+	color: white;
+	padding-top: 10px;
+}
+.datarow
+{
+	width: 99%;
+	height: 25px;
+	color: white;
+	text-align: left;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+	border-radius: 8px;
+	font-family: RalewayThin;
+}
+/*.datarow:hover
+{
+	background-color:#4c0080;
+}*/
+.data
+{
+	display: inline-block;
+	height: 25px;
+}
+#Sname
+{
+	width: 55%;
+}
+#Sstatus
+{
+	width: 20%;
+	text-align: center;
+}
+#Stime
+{
+	width: 20%;
+	text-align: center;
+}
