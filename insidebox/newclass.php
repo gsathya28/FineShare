@@ -4,7 +4,7 @@
 	if ($type != 'T')
 	{
 		$connection->close();
-		header("Location: http://localhost:9080/FineShare/insidebox/index.php");
+		header("Location: index.php");
 	}
 ?>
 <!DOCTYPE html>
@@ -19,18 +19,18 @@
 		if (isset($_COOKIE['newclasserror'])) echo '<p style = "color: white" >' . $_COOKIE['newclasserror'] . '</p>';
 		include_once "nav/nav.php";
 	?>
-	
+
 	<div id = "container">
 
 		<div id = "formcontainer">
 		<form action = "newclassprocess.php" method = "POST">
-			
+
 			<br>
 			<p class = "fieldname">Class name</p>
 			<div class = "fieldcont" id = "classname">
 				<input type = "text" name = "classname" class = "fields"/>
 			</div>
-			
+
 			<p class = "fieldname" >Class type (subject)</p>
 			<div class = "fieldcont" id = "classtype">
 				<select name = "classtype" class = "fields">
@@ -45,28 +45,28 @@
 					<option value = "other">Other</option>
 				</select>
 			</div>
-			
+
 			<p class = "fieldname">Add Students <br>(Optional - Can be done later)</p>
 			<div class = "fieldcont" id = "studentfield">
 				<input type = "text" name = "student1" class = "fields" placeholder = "Enter student email here!"/>
 			</div>
 			<br>
-			
+
 			<div id = "studentadd" onclick = ""><!--Button onclick - JavaScript Function - Add student field-->
 				Add more students
 			</div>
-			
+
 			<br>
 			<br>
-			
+
 			<div id = "submit">
 				<input type = "submit" value = "Create class!" class = "fields"/>
 			</div>
-			
+
 		</form>
 		</div>
 	</div>
-	
+
 	<?php
 		include_once "footer/footer.php";
 	?>
