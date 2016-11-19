@@ -15,7 +15,7 @@
 
 	if (!$userinfo) die ($connection->error);
 
-	$userarray = $userinfo->fetch_array(MYSQL_ASSOC);
+	$userarray = $userinfo->fetch_array(MYSQLI_ASSOC);
 
 	$firstname = $userarray['name'];
 	$lastname = $userarray['lastname'];

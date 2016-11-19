@@ -63,7 +63,7 @@
 		$classcodequery = "SELECT classcode FROM classtable WHERE username = '$username' AND classname = '$classname';";
 		$getclasscode = $connection->query($classcodequery);
 		if (!$getclasscode) die ($connection->error);
-		$getclasscodeArr = $getclasscode->fetch_array(MYSQL_ASSOC);
+		$getclasscodeArr = $getclasscode->fetch_array(MYSQLI_ASSOC);
 		$classcode = $getclasscodeArr['classcode'];
 
 		$insertclasscodequery = "INSERT INTO classcodes (classcode, username, type, status) VALUES ('$classcode', '$username', 'T', 'ACT')";
@@ -97,7 +97,7 @@
 				}
 
 				// If it does exist, set a student username variable
-				$userARR = $usernamecheck->fetch_array(MYSQL_ASSOC);
+				$userARR = $usernamecheck->fetch_array(MYSQLI_ASSOC);
 				$studentUsername = $userARR['username'];
 
 				// Checks if the student is already in the class (we can't have duplicate students)
